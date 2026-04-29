@@ -286,8 +286,7 @@ for group_name, group_features in group_map.items():
                 st.number_input(
                     label,
                     value=float(round(ratio, 2)),
-                    disabled=True,
-                    key=feature
+                    disabled=True
                 )
 
                 value = ratio
